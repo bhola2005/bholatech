@@ -1,87 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="hi">
 <head>
-<title>BholaTech Blog</title>
-<style>
-body{
-font-family: Arial;
-background:#f4f4f4;
-margin:0;
-}
-
-header{
-background:#222;
-color:white;
-padding:20px;
-text-align:center;
-}
-
-nav{
-background:#0077ff;
-padding:10px;
-text-align:center;
-}
-
-nav a{
-color:white;
-margin:15px;
-text-decoration:none;
-font-weight:bold;
-}
-
-.container{
-width:80%;
-margin:auto;
-margin-top:20px;
-}
-
-.blog-post{
-background:white;
-padding:20px;
-margin-bottom:20px;
-border-radius:5px;
-}
-
-footer{
-background:#222;
-color:white;
-text-align:center;
-padding:15px;
-margin-top:20px;
-}
-</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BholaTech | Technology & AI Blog</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-<h1>BholaTech</h1>
-<p>Technology | AI | Computer Learning Blog</p>
+<header class="top">
+<div class="logo">BholaTech</div>
+<div class="tag">Technology • AI • Programming</div>
 </header>
 
-<nav>
-<a href="#">Home</a>
-<a href="#">Blog</a>
-<a href="#">About</a>
-<a href="#">Contact</a>
+<nav class="menu">
+<a href="index.html">Home</a>
+<a href="blog.html">Blog</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
 </nav>
 
-<div class="container">
+<section class="hero">
+<h1>Welcome to BholaTech</h1>
+<p>यहाँ आप Technology, AI, Python और Website Development के बारे में सीख सकते हैं।</p>
+</section>
 
-<div class="blog-post">
-<h2>पहला ब्लॉग पोस्ट</h2>
-<p>यह BholaTech का पहला ब्लॉग पोस्ट है। यहाँ आप टेक्नोलॉजी, AI और कंप्यूटर के बारे में सीख सकते हैं।</p>
+<section class="latest">
+<h2>Latest Articles</h2>
+
+<div class="post">
+<h3><a href="post-python.html">Python कैसे सीखें (Beginner Guide)</a></h3>
+<p>अगर आप programming शुरू करना चाहते हैं तो Python सबसे आसान language है।</p>
 </div>
 
-<div class="blog-post">
-<h2>Python कैसे सीखें</h2>
-<p>Python सीखना बहुत आसान है। रोज़ practice करें और छोटे-छोटे program बनाएं।</p>
+<div class="post">
+<h3><a href="post-ai.html">Artificial Intelligence क्या है?</a></h3>
+<p>AI आज की सबसे powerful technology है जो machines को smart बनाती है।</p>
 </div>
 
+<div class="post">
+<h3><a href="post-website.html">Free में Website कैसे बनाएं</a></h3>
+<p>GitHub Pages और HTML से आप free में website बना सकते हैं।</p>
 </div>
 
-<footer>
-<p>© 2026 BholaTech | All Rights Reserved</p>
+</section>
+
+<footer class="footer">
+<p>© 2026 BholaTech | Tech Blog</p>
 </footer>
 
 </body>
